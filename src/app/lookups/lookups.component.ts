@@ -2,17 +2,14 @@ import { Component } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatCardContent} from '@angular/material'
-
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  selector: 'app-lookups',
+  templateUrl: './lookups.component.html',
+  styleUrls: ['./lookups.component.css']
 })
+export class LookupsComponent  {
 
-
-export class AppComponent {
-
-    tiles = [
+  tiles = [
         {text: 'One', cols: 3, rows: 1, color: 'lightblue'},
         {text: 'Two', cols: 1, rows: 2, color: 'lightgreen'},
         {text: 'Three', cols: 1, rows: 1, color: 'lightpink'},
@@ -34,3 +31,4 @@ export class AppComponent {
         });
     }
 }
+

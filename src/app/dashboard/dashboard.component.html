@@ -1,7 +1,6 @@
-<!-- Navigation
-<div class="container main-container">
-<nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
-  <a class="navbar-brand" [routerLink]=[home]>FLOW.ER</a>
+<!-- Navigation-->
+<!--<nav class="navbar navbar-expand-lg  fixed-top" id="mainNav">
+  <a class="navbar-brand" routerLink="/home">DW MEDIATION</a>
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -11,9 +10,9 @@
         <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents" data-parent="#exampleAccordion">
           <span class="nav-link-text">DESING</span>
         </a>
-        <ul class="sidenav-second-level collapse flex-column" id="collapseComponents">
+        <ul class="sidenav-second-level collapse" id="collapseComponents">
           <li>
-            <a [routerLink]="['/about']">about</a>
+            <a [routerLink]="['/parsers']">PARSERS</a>
           </li>
           <li>
             <a [routerLink]="['/mappers']">MAPPERS</a>
@@ -26,6 +25,7 @@
           </li>
         </ul>
       </li>
+      <br>
       <li class="nav-item" data-toggle="tooltip" data-placement="right" title="monitor">
         <a class="nav-link nav-link-collapse collapsed" data-toggle="collapse" href="#collapseComponents6" data-parent="#exampleAccordion">
           <span class="nav-link-text">MONITOR</span>
@@ -40,24 +40,15 @@
           </li>
         </ul>
         </li>
-        <li class="nav-item" data-toggle="tooltip" data-placement="right" title="Flows">
-        <a class="nav-link" [routerLink]="['/flows']" routerLinkActive="active">
-          <span class="nav-link-text">FLOWS</span>
-        </a>
-      </li>
-     
       </ul>
 
     </div>
 
-</nav>
-<div class="content-wrapper">
-  <div class="container-fluid">
-    
-  </div>-->
+</nav>-->
+
   <!-- /.container-fluid-->
-  <!-- /.content-wrapper
-  <footer class="sticky-footer">
+  <!-- /.content-wrapper-->
+  <!--<footer class="sticky-footer" >
     <div class="container">
       <div class="text-center">
         <small>Copyright © DigitalWest 2019</small>
@@ -66,8 +57,41 @@
   </footer>
   
   
-
-</div>
 </div>-->
 
-<router-outlet></router-outlet>
+
+  
+  
+          <div class="row justify-content-start">
+            <div class="col-4 ">
+  
+   <!-- DESING--> 
+    <div class="btn-group-vertical" name="desing" id="desing">
+
+        <button type="button" class="btn btn-secondary btn-lg ml-sm-10">DESING</button>
+        <button type="button" [routerLink]="['/parsers']"class="btn btn-outline-primary btn-lg ml-sm-10">PARSERS</button>
+        <button type="button" [routerLink]="['/mappers']" class="btn btn-outline-primary btn-lg mr-sm-10">MAPPERS</button>
+        <button type="button" [routerLink]="['/lookups']" class="btn btn-outline-primary btn-lg mr-sm-10">LOOKUPS</button>
+        <button type="button" [routerLink]="['/flows']" class="btn btn-outline-primary btn-lg mr-sm-10">FLOWS</button>
+        </div>
+      <br>
+
+<!--MONITOR-->
+        <div class="btn-group-vertical" name="monitor" id="monitor">
+         <button type="button" class="btn btn-secondary btn-lg mr-sm-10">MONITOR</button>
+         <button type="button" [routerLink]="['/lookups']" class="btn btn-outline-primary btn-lg mr-sm-10">LOOKUP</button>
+         <button type="button" [routerLink]="['/flows']" class="btn btn-outline-primary btn-lg mr-sm-10">FLOWS</button>
+        </div>
+        
+</div>
+</div>
+  <div class="content-wrapper">
+   <div class="container-fluid">
+    <router-outlet></router-outlet>
+  </div>
+  </div>
+
+
+  
+ 
+

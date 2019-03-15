@@ -1,0 +1,92 @@
+.h4 {
+	background-color: #e52d27;
+	color: white;
+	height: 70px;
+	position: block;
+	text-align: left;
+}
+.btn {
+	background-color: #e52d27;
+    
+}
+
+#table {
+	
+	border: 1px;
+	border-color:  #E53935;
+}
+
+ /*.container  {
+ 	display: content;
+	margin: auto;
+	margin-top: 5px;
+	width: 50%;
+	height: 100%;
+	
+}*/
+
+  /*#encabezado h1 {
+ 	position: absolute;
+ 	height: 80px;
+ 	margin-top: 20px;
+ 	margin-bottom: 0px;
+    display: block;
+    text-align: center;
+    background-color: #eee;
+}*/
+ 
+   .breadcrumb {
+	background-image: linear-gradient(to top, #4CA1AF 0%, #C4E0E5 100%);
+	color: white;
+	height: 70px;
+	position: block;
+}
+
+  /* #cuerpo {
+   	margin-bottom: 10px;
+   	box-shadow: 1px 2px 4px ;
+	border-radius: 10px;
+	padding: 10px;
+	height: 800px;
+	
+   }
+
+ 
+
+ #contenido {
+	margin-top: 10px;
+	margin-right: 50px;
+	margin-left: 150px;*/
+	/*background-image: linear-gradient(to top, #4CA1AF 0%, #C4E0E5 100%);
+ 
+	
+}*/
+
+ #pie {
+    margin-bottom: 10px;
+   	box-shadow: 1px 2px 4px #e52d27;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+ #select1 {
+    border: 3px ;
+    border-color: black;
+}
+
+#view {
+	background-color: #00d2ff;
+
+}
+
+#delete {
+	background-color: #00d2ff;
+}
+
+.btn {
+	background-color: #00d2ff;
+}
+
+.material-icons {
+	text-align: right;
+}
